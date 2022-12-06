@@ -1,0 +1,26 @@
+{
+    "sourceFile": "README.md",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1670369806989,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1670369947599,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,8 @@\n # Xavante Spelling Converter\n \n-It converts from spelling with S, Z, and Â to the spelling with TS, DZ and Ö respectibilu \n+It converts from spelling with S, Z, and Â to the spelling with TS, DZ and Ö respectively.\n+\n+## Developed with\n+\n+- Java 17\n+- Spring Boot 3.0.0\n"
+                },
+                {
+                    "date": 1670370069642,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n # Xavante Spelling Converter\n \n-It converts from spelling with S, Z, and Â to the spelling with TS, DZ and Ö respectively.\n+It converts from xavante spelling with S, Z, and Â to the spelling with TS, DZ and Ö respectively.\n \n ## Developed with\n \n - Java 17\n"
+                }
+            ],
+            "date": 1670369806989,
+            "name": "Commit-0",
+            "content": "# Xavante Spelling Converter\n\nIt converts from spelling with S, Z, and Â to the spelling with TS, DZ and Ö respectibilu \n"
+        }
+    ]
+}
