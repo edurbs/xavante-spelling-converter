@@ -1,0 +1,22 @@
+{
+    "sourceFile": "src/main/java/com/edurbs/xavantespellingconverter/domain/service/ConvertSpelling.java",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1670374041643,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1670374096573,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,6 +3,8 @@\n import org.springframework.stereotype.Service;\r\n \r\n @Service\r\n public class ConvertSpelling {\r\n-    private HashMap<String, String> mapNames = new Names();\r\n+    public void convert() {\r\n+        \r\n+    }\r\n }\r\n"
+                }
+            ],
+            "date": 1670374041643,
+            "name": "Commit-0",
+            "content": "package com.edurbs.xavantespellingconverter.domain.service;\r\n\r\nimport org.springframework.stereotype.Service;\r\n\r\n@Service\r\npublic class ConvertSpelling {\r\n    private HashMap<String, String> mapNames = new Names();\r\n}\r\n"
+        }
+    ]
+}

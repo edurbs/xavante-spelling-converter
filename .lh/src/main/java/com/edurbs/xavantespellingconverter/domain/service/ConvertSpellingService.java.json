@@ -1,0 +1,34 @@
+{
+    "sourceFile": "src/main/java/com/edurbs/xavantespellingconverter/domain/service/ConvertSpellingService.java",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 4,
+            "patches": [
+                {
+                    "date": 1670374438147,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1670374687886,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,20 +5,29 @@\n import org.springframework.stereotype.Service;\r\n \r\n import com.edurbs.xavantespellingconverter.domain.model.Names;\r\n \r\n+import lombok.Getter;\r\n+import lombok.Setter;\r\n+\r\n @Service\r\n+@Getter\r\n+@Setter\r\n public class ConvertSpellingService {\r\n \r\n-    private String fromText;\r\n-    private String toText;\r\n+    private String textToConvert;\r\n \r\n     public void convert(String textToConvert) {\r\n+        setTextToConvert(textToConvert);\r\n+        \r\n         var mapNames = new Names();\r\n \r\n         mapNames.getMapNames().forEach(this::convertName);\r\n     }\r\n \r\n     private void convertName(String from, String to){\r\n-        fromText.re\r\n+        setTextToConvert(\r\n+                getTextToConvert()\r\n+                .replaceAll(from, to));\r\n     }\r\n+\r\n }\r\n"
+                },
+                {
+                    "date": 1670374742258,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,14 +15,16 @@\n public class ConvertSpellingService {\r\n \r\n     private String textToConvert;\r\n \r\n-    public void convert(String textToConvert) {\r\n+    public String convert(String textToConvert) {\r\n         setTextToConvert(textToConvert);\r\n         \r\n         var mapNames = new Names();\r\n \r\n         mapNames.getMapNames().forEach(this::convertName);\r\n+\r\n+        return getTextToConvert();\r\n     }\r\n \r\n     private void convertName(String from, String to){\r\n         setTextToConvert(\r\n"
+                },
+                {
+                    "date": 1670374801601,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n         setTextToConvert(textToConvert);\r\n         \r\n         var mapNames = new Names();\r\n \r\n-        mapNames.getMapNames().forEach(this::convertName);\r\n+        Names.names().;.getMapNames().forEach(this::convertName);\r\n \r\n         return getTextToConvert();\r\n     }\r\n \r\n"
+                },
+                {
+                    "date": 1670374873306,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,12 +17,10 @@\n     private String textToConvert;\r\n \r\n     public String convert(String textToConvert) {\r\n         setTextToConvert(textToConvert);\r\n-        \r\n-        var mapNames = new Names();\r\n \r\n-        Names.names().;.getMapNames().forEach(this::convertName);\r\n+        Names.names().forEach(this::convertName);\r\n \r\n         return getTextToConvert();\r\n     }\r\n \r\n"
+                }
+            ],
+            "date": 1670374438147,
+            "name": "Commit-0",
+            "content": "package com.edurbs.xavantespellingconverter.domain.service;\r\n\r\nimport java.util.Map.Entry;\r\n\r\nimport org.springframework.stereotype.Service;\r\n\r\nimport com.edurbs.xavantespellingconverter.domain.model.Names;\r\n\r\n@Service\r\npublic class ConvertSpellingService {\r\n\r\n    private String fromText;\r\n    private String toText;\r\n\r\n    public void convert(String textToConvert) {\r\n        var mapNames = new Names();\r\n\r\n        mapNames.getMapNames().forEach(this::convertName);\r\n    }\r\n\r\n    private void convertName(String from, String to){\r\n        fromText.re\r\n    }\r\n}\r\n"
+        }
+    ]
+}
