@@ -17,12 +17,10 @@ public class ConvertSpellingServiceTest {
 
     @Test
     public void givenOneNamePartialConverted_whenConvert_thenReturnOneNameFullyConverted() {
-        //String nameToConvert = "Bazezusi ma tô ꞌmadâ ihâimanazé duré ĩhâimanazé";
-        // String nameToConvert = "Badzedzutsi";
-        String stringToConvert = "õ hã Bazezusi ma tô ꞌmadâ Sere duré wahâimanazé";
-        String stringExpected = "õ hã Barjesus ma tô ꞌmadö TSere duré wahöimanadzé";
+
+        String stringToConvert = "Õ hã, Zezusihi wasuꞌu. Bazezusi hã, ma tô ꞌmadâ Sere duré: wahâimanazé, ĩhâimanazé, Ĩhâimanazé, ihâimanazé, Ihâimanazé ihâiba amo na";
+        String stringExpected  = "Õ hã, Jesus watsuꞌu. Barjesus hã, ma tô ꞌmadö Tsere duré: wahöimanadzé, ĩ̱höimanadzé, Ĩ̱höimanadzé, ĩhöimanadzé, Ĩhöimanadzé ĩhöiba amo na";
         
-        //String nameExpected = "Barjesus ma tô ꞌmadö ĩhöimanadzé duré ĩ̱höimanadzé";
 
         String nameConverted = convertSpellingService.convert(stringToConvert);
 

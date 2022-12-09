@@ -18,14 +18,11 @@ Agripa
 Adão
 Admim
 André
-Adi
 Andrônico
 Augusto
 Armagedom
 Aminadabe
-Amom
 Amós
-Ana
 Ananias
 Anás
 Arpaxade
@@ -49,7 +46,6 @@ Arni
 Aristóbulo
 Aristarco
 Asíncrito
-Aser
 Aceldama
 Assôs
 Aquim
@@ -73,8 +69,6 @@ Barnabé
 Balaão
 Barrabás
 Blasto
-Balaque
-Baraque
 Baraquias
 Barsabás
 Bartimeu
@@ -124,7 +118,6 @@ Cuza
 Gábata
 Gabriel
 Gadara
-Gade
 Gaio
 Dalmanuta
 Dâmaris
@@ -152,7 +145,6 @@ Gólgota
 Gomorra
 domingo
 Drusila
-Éber
 hebreu
 Êubulo
 Elmadã
@@ -303,8 +295,6 @@ Pérgamo
 Pedro
 Fenice
 Fenícia
-Pelegue
-Perge
 Perez
 Félix
 Festo
@@ -353,7 +343,6 @@ Lisânias
 Lísias
 Listra
 Lícia
-Ló
 Roboão
 Rode
 Rodes
@@ -362,8 +351,6 @@ Roma
 Romano
 Rúben
 Lucas
-Rufo
-Lúcio
 Rute
 Sem
 Sabá
@@ -374,14 +361,9 @@ saduceu
 Síntique
 Samaria
 Salmom
-Salmom
-Samos
 Samotrácia
 Samuel
 Safira
-Sala
-Salém
-Sara
 Salim
 Salamina
 Salmona
@@ -400,7 +382,6 @@ Saul
 Salmos
 Cedrom
 Segundo
-Semei
 Cefas
 Será
 Selêucia
@@ -412,8 +393,6 @@ Sérgio
 Sião
 Sicar
 Sidom
-Simão
-Simeão
 Sinai
 Cnido
 Chipre
@@ -433,7 +412,6 @@ Sóstenes
 Susana
 Tabita
 Tadeu
-Tamar
 Traconites
 Talitá
 Tarso
@@ -493,9 +471,7 @@ Jezabel
 Jesus
 Gideão
 Jó
-Jodá
 Jordão
-Jonã
 Jonas
 Jope
 Jorão
@@ -512,10 +488,8 @@ Júpiter
 Júlio
 Júlia
 Justo
-JoãoBatista
+João Batista
 João
-Joana
-Joanã
 Joel
 José
 Josué

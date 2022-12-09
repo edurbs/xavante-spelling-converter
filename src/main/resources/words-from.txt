@@ -18,14 +18,11 @@ Adaripa
 Adã
 Ademi
 Ãdéré
-Adi
 Ãdoronitu
 Adutsitu
 Amadedo
 Aminadabe
-Amo
 Amotsi
-Ãna
 Ananidza
 Anatsi
 Apatsadi
@@ -49,7 +46,6 @@ Arini
 Aritsitoburu
 Aritacu
 Atsĩtitu
-Atsé
 Atsédama
 Atsôtsi
 Atĩ
@@ -73,8 +69,6 @@ Banabé
 Bara'ã
 Barabatsi
 Baratsitu
-Barati
-Barati
 Baratidza
 Batsaba
 Batimedzu
@@ -124,7 +118,6 @@ Cudza
 Dabata
 Dabridzé
 Dadara
-Dadi
 Da'idzu
 Damanuta
 Damaritsi
@@ -152,7 +145,6 @@ Dodota
 Domora
 dumidu
 Durutsira
-Ébé
 ebreutsi
 Eburu
 Emadã
@@ -303,8 +295,6 @@ Pedamo
 Pedru
 Penitsi
 Penitsidza
-Peredi
-Peredi
 Peredzi
 Peri
 Petsitu
@@ -353,7 +343,6 @@ Ritsãnidza
 Ritsi'atsi
 Ritsitira
 Ritsidza
-Ro
 Robu'ã
 Rodi
 Roditsi
@@ -362,10 +351,8 @@ Roma
 Romanu
 Rubẽ
 Rucatsi
-Rupu
 Rutsidzu
 Ruti
-Tsẽ
 Tsaba
 tsabadu
 Tsadetsi
@@ -373,15 +360,10 @@ Tsadoti
 tsadutsedzu
 Tsĩtiti
 Tsamaridza
-Tsamo
 Tsalmo
-Tsamo
 Tsamotaratsidza
 Tsamuwé
 Tsapira
-Tsara
-Tsarẽ
-Tsara
 Tsarĩ
 Tsaramina
 Tsaramona
@@ -400,7 +382,6 @@ Tsau
 Tsaumutsi
 Tséderõ
 Tsedudu
-Tseme
 Tsepatsi
 Tsera
 Tsere'utsidza
@@ -412,8 +393,6 @@ Tsédzi'u
 Tsi'ã
 Tsica
 Tsido
-Tsima
-Tsimi'ã
 Tsina'i
 Tsinidu
 Tsipri
@@ -433,7 +412,6 @@ Tsotẽni
 Tsudzana
 Tabita
 Tadedzu
-Tama
 Taraconiti
 Tarita
 Tatsu
@@ -493,9 +471,7 @@ Dzédzabé
 Dzedzutsi
 Dzidi'ã
 Dzo
-Dzoda
 Dzodã
-Dzona
 Dzona
 Dzopi
 Dzorã
@@ -514,8 +490,6 @@ Dzuridza
 Dzutsitu
 DzuwãBatita
 Dzuwã
-Dzuwãna
-Dzuwãna
 Dzuwé
 Dzudzé
 Dzudzuwé
