@@ -24,7 +24,7 @@ public class ConvertSpellingService {
 
     private List<String> namesFrom;
     private List<String> namesTarget;
-    private StringBuilder finalText = new StringBuilder();
+    private StringBuilder finalText;
 
     /**
      * Convert a text from American to German spelling 
@@ -33,13 +33,32 @@ public class ConvertSpellingService {
      */
     public String convert(String textToConvert){
         
+        finalText = new StringBuilder();
+
         this.namesFrom = names.getNamesFrom();
         this.namesTarget = names.getNamesTarget();
 
-        List<String> words = Arrays.asList(textToConvert.split(" "));
+        textToConvert = cleanText(textToConvert);
+
+        List<String> words = Arrays.asList(textToConvert.split("(?=[.,:;! “”‘’()—\\n\\r])|(?<=[.,:;! “”‘’()—\\n\\r])"));
+
         words.forEach(this::convertWord);
 
         return finalText.toString().trim();
+    }
+
+    /**
+     * Remove stranger characters
+     * @param textToConvert
+     * @return
+     */
+    private String cleanText(String textToConvert) {
+        
+        char phantomSpace = '\u00a0';
+
+        textToConvert = textToConvert.replace(phantomSpace, ' ');
+
+        return textToConvert;
     }
 
     /**
@@ -48,16 +67,18 @@ public class ConvertSpellingService {
      */
     private void convertWord(String word){
 
-        word = convertLetters(word);
+        if(!word.isBlank()){
+            
+            word = convertLetters(word);
+            
+            word = convertName(word);
+    
+            word = convertNameWithSuffix(word);
+        }
         
-        word = convertName(word);
-
-        word = convertNameWithSuffix(word);
-        
-        finalText.append(word + " ");
+        finalText.append(word);
         
     }
-
 
     /**
      * Convert the letters from American to German spelling 
@@ -121,14 +142,23 @@ public class ConvertSpellingService {
      * @return
      */
     private String convertNameWithSuffix(String nameToConvert){
+            
         var nameLength = nameToConvert.length();
-        
-        var lastChar = nameToConvert.charAt(nameLength-1);
-        var suffix = "h" + lastChar;
 
-        if(nameToConvert.endsWith(suffix)){
-            var nameWithoutSuffix = nameToConvert.substring(0, nameLength-2);
-            return convertName(nameWithoutSuffix);
+        if (!nameToConvert.isBlank()) {
+
+            var lastChar = nameToConvert.charAt(nameLength - 1);
+            var suffix = "h" + lastChar;
+
+            if (nameToConvert.endsWith(suffix)) {
+                var nameWithoutSuffix = nameToConvert.substring(0, nameLength-2);
+                
+                var index = namesFrom.indexOf(nameWithoutSuffix);
+                if (index > 0) {
+                    return getNameConverted(index);
+                }
+            }
+
         }
         return nameToConvert;
     }

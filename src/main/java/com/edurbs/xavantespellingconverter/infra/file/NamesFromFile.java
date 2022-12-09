@@ -23,11 +23,10 @@ public class NamesFromFile implements Names {
     @Override
     public List<String> getNamesFrom() {
         try {                
-            URL fileWordsFrom = ConvertSpellingService.class.getResource("/words-from.txt");
+            URL fileWordsFrom = ConvertSpellingService.class.getResource("/words/words-from.txt");
             URI uri = fileWordsFrom.toURI();
             Path path = Paths.get(uri);
-            List<String> readAllLines = Files.readAllLines(path, charset);
-            return readAllLines;
+            return Files.readAllLines(path, charset);
         }
         catch (IOException | URISyntaxException e) {
             throw new BusinessException(e.getMessage(), e);
@@ -37,11 +36,10 @@ public class NamesFromFile implements Names {
     @Override
     public List<String> getNamesTarget() {
         try {                
-            URL fileWordsTarget = ConvertSpellingService.class.getResource("/words-target.txt");
+            URL fileWordsTarget = ConvertSpellingService.class.getResource("/words/words-target.txt");
             URI uri = fileWordsTarget.toURI();
             Path path = Paths.get(uri);
-            List<String> readAllLines = Files.readAllLines(path, charset);
-            return readAllLines;
+            return  Files.readAllLines(path, charset);
         }
         catch (IOException | URISyntaxException e) {
             throw new BusinessException(e.getMessage(), e);
