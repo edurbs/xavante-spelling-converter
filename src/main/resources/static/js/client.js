@@ -4,8 +4,7 @@ function convertText(){
     });
 
     $.ajax({
-        // url: "http://www.eduardo.soares.nom.br:8081/convert",
-        url: "http://api.openfood.local:8081/convert",
+        url: "http://www.eduardo.soares.nom.br:8081/convert",
         type: "post",
         data: textToConvertJson,
         contentType: "application/json",
