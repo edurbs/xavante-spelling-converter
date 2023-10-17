@@ -1,6 +1,7 @@
 package com.edurbs.xavantespellingconverter.infra.file;
 
 import java.io.BufferedReader;
+import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.nio.charset.Charset;
@@ -19,24 +20,22 @@ public class NamesFromFile implements Names {
 
     @Override
     public List<String> getNamesFrom() {
-        try {
-            InputStream in = getClass().getResourceAsStream("/words/words-from.txt");
-            BufferedReader reader = new BufferedReader(new InputStreamReader(in));
+        try (InputStream in = getClass().getResourceAsStream("/words/words-from.txt");
+            BufferedReader reader = new BufferedReader(new InputStreamReader(in, charset))) {
             return reader.lines().collect(Collectors.toList());
-        } catch (Exception e) {
-            throw new BusinessException(e.getMessage(), e);
+        } catch (IOException e) {
+            throw new BusinessException("Error reading names from file", e);
         }
     }
 
     @Override
     public List<String> getNamesTarget() {
-        try {
-            InputStream in = getClass().getResourceAsStream("/words/words-target.txt");
-            BufferedReader reader = new BufferedReader(new InputStreamReader(in));
+        try (InputStream in = getClass().getResourceAsStream("/words/words-target.txt");
+            BufferedReader reader = new BufferedReader(new InputStreamReader(in, charset))) {
             return reader.lines().collect(Collectors.toList());
-        } catch (Exception e) {
+        } catch (IOException e) {
             throw new BusinessException(e.getMessage(), e);
         }
-    }
+}
 
 }

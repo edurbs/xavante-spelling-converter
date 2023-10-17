@@ -45,10 +45,10 @@ Arimatedza
 Arini
 Aritsitoburu
 Aritacu
-Atsĩtitu
+Atsititu
 Atsédama
 Atsôtsi
-Atĩ
+Ati
 Ataridza
 Atadza
 Atematsi
@@ -88,7 +88,7 @@ Bitinha
 Bu'anedzi
 Bu'adzi
 Buadzi
-Ca'ĩ
+Ca'i
 Cãdatsi
 Cadedza
 Ca'ina
@@ -105,7 +105,7 @@ Cadzuda
 Cereta
 Coneridzu
 Cora
-Corĩtu
+Coritu
 Coradzi
 Coropatsi
 Corotsu
@@ -162,14 +162,14 @@ Epaproditu
 Epata
 Epenetu
 Épédzu
-Epra'ĩ
+Epra'i
 Eprati
 Erã
 Eratsitu
 Ere
 Eri
 Eriatsi
-Eri'atĩ
+Eri'ati
 Eri'adza
 Eri'édzé
 Erima
@@ -247,7 +247,7 @@ Mitireni
 Midzi'a
 Moroti
 Modzétsi
-Na'ĩ
+Na'i
 Na'ama
 Nada'i
 Na'o
@@ -273,7 +273,7 @@ Nowé
 Obedi
 Onetsimo
 Onetsiporu
-Orĩpatsi
+Oripatsi
 Oriwera
 Odzédza
 Pamenatsi
@@ -351,20 +351,20 @@ Roma
 Romanu
 Rubẽ
 Rucatsi
-Rutsidzu
 Ruti
+Sẽ
 Tsaba
 tsabadu
 Tsadetsi
 Tsadoti
 tsadutsedzu
-Tsĩtiti
+Tsititi
 Tsamaridza
 Tsalmo
 Tsamotaratsidza
 Tsamuwé
 Tsapira
-Tsarĩ
+Tsari
 Tsaramina
 Tsaramona
 Tsarati'é
@@ -475,7 +475,7 @@ Dzodã
 Dzona
 Dzopi
 Dzorã
-Dzorĩ
+Dzori
 Dzorobabé
 Dzotsapa
 Dzotã
@@ -498,28 +498,28 @@ Apocariptsi
 Batitsta
 Lucatsi
 Atutsi
-Roma norĩ
-Corĩtu norĩ
-Galata norĩ
-Éfédziu norĩ
-Filipu norĩ
-Colotsu norĩ
-Tetsalonita norĩ
+Roma nori
+Coritu nori
+Galata nori
+Éfédziu nori
+Filipu nori
+Colotsu nori
+Tetsalonita nori
 Tibériu
 Põtsiu
 Pilatu
 Dzudéa
 Galiléa
-Ĩturedza
+Ituredza
 Caifatsi
 Abraꞌã
-Ĩdzaqui
-Ĩdzaraéu
+Idzaqui
+Idzaraéu
 Mariaha
 Eriudi
 Eriadza
 Peretsi
-Etsrõhõ
+Etsrõ
 Raꞌabi
 Uriatsi
 Robuã
@@ -531,15 +531,28 @@ Dzeconia
 Dzodzia
 Tsaratiꞌé
 Abiudi
-Eriaquĩ
+Eriaqui
 Tsadoqui
-Aquĩ
+Aqui
 Etsrõ
 Udziatsi
 Eriꞌadza
-Ĩdzaia
+Idzaia
 Dzodzué
 Libanu
 Dzodã
 Modzétsi
 Atsquerõ
+Dzerudzalẽ
+Tsalatiꞌé
+Tsamaria
+Ĩdzaraéu
+Dzodzadaqui
+Cadmiꞌéhé
+Henadadehe
+Hodaviaha
+Artadzetsi
+Pertsia
+Etsdra
+Babilonia 
+Tseraiaha

@@ -35,11 +35,5 @@ function copyText(){
 
     document.execCommand('copy');
 
-
-    $("#clipboardmsg").empty()
-    $("#clipboardmsg").append("<div class=\"msg\">O texto foi convertido e copiado para a área de transferência.</div>");
-    setTimeout(function(){
-        $("#clipboardmsg").empty()
-      }, 5000);
 }
 

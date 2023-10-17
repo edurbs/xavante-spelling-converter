@@ -70,10 +70,9 @@ public class ConvertSpellingService {
         if(!word.isBlank()){
             
             word = convertLetters(word);
-            
-            word = convertName(word);
-    
             word = convertNameWithSuffix(word);
+            word = convertName(word);            
+    
         }
         
         finalText.append(word);
@@ -115,9 +114,11 @@ public class ConvertSpellingService {
      * @return
      */
     private String convertName(String nameToConvert){
-        var index = namesFrom.indexOf(nameToConvert);
-        if(index>0){
-            return getNameConverted(index);
+        if(nameToConvert.length()>1){
+            var index = namesFrom.indexOf(nameToConvert);
+            if(index>0){
+                return getNameConverted(index);
+            }            
         }
         return nameToConvert;
     }
